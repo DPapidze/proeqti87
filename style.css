@@ -1,0 +1,102 @@
+.b1{
+    width: 378px;
+    height: 498px;
+    margin-top: 15px;
+    background-color: #F5F5F5;
+    border: 1px solid #f4b4b480;
+    border-radius: 10px;
+}
+form{
+    padding-left: 23px;
+}
+
+.n1{
+    outline: none;
+    width: 315px;
+    height: 45px;
+    background: url(person.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 300px center;
+    border-radius: 10px;
+    border: 1px solid #f4b4b480;
+    color: #9E9E9E;
+    caret-color: #5e5e5e;
+    padding-left: 10px;
+    margin-top: 10px;;
+}
+.n1:focus{
+    background-color: #FFFFFF;
+}
+
+.n1::placeholder{
+    color: #9E9E9E;
+    font-weight: 500px;
+    font-size: 16px;
+}
+.n2::placeholder{
+    color: #9E9E9E;
+}
+.n2{
+    outline: none;
+    width: 315px;
+    height: 35px;
+    background: url(eye-slash.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 300px center;
+    border-radius: 10px;
+    border: 1px solid #f4b4b480;
+    color: #9E9E9E;
+    caret-color: #5e5e5e;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.n2:focus{
+    background-color: #FFFFFF;
+}
+
+.n2::placeholder{
+    color: #9E9E9E;
+    font-weight: 800px;
+    font-size: 16px;
+}
+
+body{
+    margin: auto;
+}
+
+@font-face {
+    font-family: fonts;
+    src: url(/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+button{
+    width: 327px;
+    height: 45px;
+    background-color: #6756CB;
+    border-radius: 10px;
+  
+}
+button{
+    font-family: fonts;
+    font-size: 15px;
+    font-weight: 700px;
+    color: #FFFFFF
+}
+label{
+    font-family: fonts;
+}
+.f{
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+body {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
